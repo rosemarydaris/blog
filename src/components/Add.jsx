@@ -17,10 +17,10 @@ const AddBlog = () => {
 
     alert("Blog submitted successfully!");
 
-    // Optionally navigate to dashboard/home
+ 
     navigate('/');
 
-    // Reset form
+ 
     setBlogName('');
     setDescription('');
     setAuthor('');
